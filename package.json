@@ -1,0 +1,31 @@
+{
+  "name": "cinematch-stremio",
+  "version": "1.0.0",
+  "description": "CineMatch - Your personal movie matchmaker for Stremio. Get intelligent recommendations powered by TMDb.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stremio",
+    "addon",
+    "recommendations",
+    "tmdb",
+    "movies",
+    "series"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.9",
+    "stremio-addon-sdk": "^1.6.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
